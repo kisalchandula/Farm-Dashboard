@@ -25,5 +25,5 @@ docker build -t geojson-viewer .
 
 run the container:
 ```bash
-docker run -p 3838:3838 geojson-viewer
+docker run --rm -it -p 3838:80 geojson-viewer
 ```
