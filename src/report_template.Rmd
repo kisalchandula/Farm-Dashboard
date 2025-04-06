@@ -1,0 +1,14 @@
+---
+title: "GeoJSON Report"
+output: pdf_document
+params:
+  dup_count: 0
+  multi_geom_count: 0
+  data_summary: NULL
+  duplicates: NULL
+---
+
+# Summary
+
+- **Duplicate geometries removed**: `r params$dup_count`
+- **MultiPolygon geometries found and converted**: `r params$multi_geom_count`
